@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.cardEvento {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #821B47;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+.card__titulo {
+    font-size: 18px;
+}
+
+.card__texto {
+    font-size: 16px;
+    text-align: center;
+    width: 192px;
+    height: 72px;
+}
+
+.card__conectar {
+    font-size: 18px;
+    text-decoration: none;
+    color: #B51D44;
+}
+
+.card__conectar--disable {
+    color: #821B47;
+}
+
+.card__conectar--disable {
+    color: lightgray;
+}
+
+.card__conectar--disable {
+    cursor:not-allowed;
+}
